@@ -1,0 +1,17 @@
+.c-continute{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 52px;
+    height: 52px;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0px 5px 20px rgba(18, 2, 47, 0.15);
+    span{
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 7.5px 0 7.5px 12px;
+        border-color: transparent transparent transparent #4F77FF;
+    }
+}
