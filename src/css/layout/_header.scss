@@ -1,6 +1,6 @@
 // font-size:clamp(( 14px / $font-size) * 1rem, 1.5vw ,( 16px / $font-size) * 1rem);
 .l-header {
-	position: fixed;
+	position: absolute;
 	width: 100%;
 	z-index: 100;
 	top: 16px;

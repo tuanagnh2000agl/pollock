@@ -7,18 +7,9 @@
             width: 100%;
             height: calc(100vh);
             position: relative;
-            &::after{
-                content: "";
-                position: absolute;
-                width: 80px;
-                height: 80px;
-                background: #F9C45C url('./images/common/arrow_down.svg') no-repeat center;
-                border-radius: 50%;
-                bottom: -40px;
-                left: 50%;
-                transform: translateX(-50%);
-                z-index: 100;
-            }
+        }
+        .slick-list{
+            overflow: unset;
         }
     }
     &__content{

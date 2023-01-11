@@ -1,0 +1,47 @@
+.c-brand{
+    max-width: 915px;
+    width: 100%;
+    margin: 0 auto;
+    &__heading{
+        font-size: ( 36px / $font-size) * 1rem;
+        font-weight: 500;
+        line-height: 46px;
+        text-align: center;
+    }
+    &__logo{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 80px;
+        &__item{
+            .google{
+                img{
+                    width: 130px;
+                    height: 46px;
+                    object-fit: cover;
+                }
+            } 
+            .netflix{
+                img{
+                    width: 126px;
+                    height: 34px;
+                    object-fit: cover;
+                }
+            }
+            .slack{
+                img{
+                    width: 156px;
+                    height: 40px;
+                    object-fit: cover;
+                }
+            }
+            .intercom{
+                img{
+                    width: 190px;
+                    height: 48px;
+                    object-fit: cover;
+                }
+            }
+           
+        }
+    }
+}

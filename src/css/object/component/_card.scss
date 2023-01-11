@@ -1,0 +1,33 @@
+.c-card{
+    &__list{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 30px;
+    }
+    &__item{
+        background: #FFF;
+        box-shadow: 0px 20px 50px rgba(79, 119, 255, 0.2);
+        border-radius: 20px;
+        padding: 50px 35px 60px;
+        &__icon{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            span{
+                color: $color12;
+                font-size: ( 22px / $font-size) * 1rem;
+            }
+            img{
+                width: 60px;
+                height: 60px;
+                object-fit: cover;
+            }
+        }
+        &__detail{
+            text-align: center;
+            color: $color4;
+            font-size: ( 16px / $font-size) * 1rem;
+        }
+    }
+}
